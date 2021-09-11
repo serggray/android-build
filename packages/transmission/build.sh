@@ -12,8 +12,8 @@ elif [ "$1" = allnodep ]; then
   exit $?
 fi
 
-TRANSMISSION_GIT_URL='https://github.com/AndreyPavlenko/transmission.git'
-BRANCH_NAME='transmissionbtc'
+TRANSMISSION_GIT_URL='https://github.com/serggray/transmission.git'
+BRANCH_NAME='transmissionsrv'
 LIBS='libtransmission/libtransmission.a
         third-party/*/lib/libdht.a
         third-party/*/lib/libb64.a
